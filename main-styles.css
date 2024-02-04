@@ -43,7 +43,7 @@ html,body{
     & h1{
         color:white;
         /* margin-left: 20%; */
-        font-size: 8em !important;
+        font-size: 8vw !important;
         /* margin-top: 5%;
         margin-right: 30%;
         margin-left: 10% ; */
@@ -79,7 +79,7 @@ html,body{
         color: #000;
         text-align: center;
         font-family: Martel;
-        font-size: 31px;
+        font-size: 2vw;
         font-style: normal;
         font-weight: 700;
         line-height: 112%; /* 34.72px */
@@ -98,36 +98,13 @@ html,body{
         color: #FFF;
         text-align: center;
         font-family: Martel;
-        font-size: 31px;
+        font-size: 1.5vw;
         font-style: normal;
         font-weight: 700;
         line-height: 112%; /* 34.72px */
         text-transform: capitalize;
     }
 }
-@media only screen and (max-width: 600px) {
-    .transition-rect{
-        width: 100% !important;
-    }
-    .reservation-box h3{
-        font-size: 15px !important;
-    }
- }
-@media only screen and (max-width: 992px) {
-    /* .header-box h3{
-        font-size: ;
-    } */
-    .transition-rect{
-        width: 100% !important;
-    }
-    .reservation-box{ 
-        width: 60% !important;
-        
-        & h3{
-        font-size: 20px !important;
-        }
-    }
- }
 
 /* MAIN CONTENTS */
 .section-title{
