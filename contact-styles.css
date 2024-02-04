@@ -1,0 +1,64 @@
+
+
+.navbar{
+    height: 100px;
+}
+/* FOR SM AND XS DEVICES*/
+@media only screen and (max-width: 600px) {
+    .navbar {
+     height: auto; 
+    }
+ }
+ @media only screen and (max-width: 992px) {
+    .navbar {
+     height: auto; 
+   } 
+ }
+
+ /* CONTACT FORM (LEFT SIDE BOX) */
+ h1{
+    color: #000;
+    font-family: Martel;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800 !important;
+    line-height: 112%; /* 53.76px */
+    text-transform: capitalize;
+ }
+.contact-form{
+    background-color: rgb(192, 192, 192);
+}
+
+
+/* INFORMATION (RIGHT SIDE BOX) */
+.information-container{
+    background-color: #CF1616;
+}
+.inline-txt h1, .inline-txt p{
+    display: inline;
+}
+.address h1, .inline-txt h1{
+    color: #FFF;
+    font-family: Martel;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 170%; 
+}
+.address p, .inline-txt p{
+    color: #FFF;
+    font-family: Martel;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 170%; */
+}
+
+label{
+    color: #000;
+    font-family: Martel;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 800;
+
+}

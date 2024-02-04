@@ -1,0 +1,299 @@
+/* remove X axis scroll bar */
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+/* NAVBAR */
+.navbar{
+    height: 10%;
+}
+.navbar-nav a{
+    color: #FFF;
+    font-family: Martel;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 112%; /* 34.72px */
+    text-transform: capitalize;
+} 
+/* FOR SM AND XS DEVICES*/
+@media only screen and (max-width: 600px) {
+    .navbar {
+     height: auto; 
+    }
+ }
+ @media only screen and (max-width: 992px) {
+    .navbar {
+     height: auto; 
+   } 
+ }
+
+/* HERO SECTION */
+.banner-image{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.67) 33.28%, rgba(111, 103, 103, 0.00) 78.3%, rgba(228, 167, 167, 0.08) 117.2%), url('images/header-etc/852268_121497.webp'), lightgray 0px -2.337px / 100% 117.137% no-repeat;
+    /* background-image: url('images/header-etc/852268_121497.webp'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+}
+.content{
+    & h1{
+        color:white;
+        /* margin-left: 20%; */
+        font-size: 8em !important;
+        /* margin-top: 5%;
+        margin-right: 30%;
+        margin-left: 10% ; */
+        position: relative;
+    
+        font-family: Martel;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 112%; /* 144.48px */
+        text-transform: capitalize;
+    }
+}
+
+
+/* TRANSITION RECT */
+.transition-rect{
+    width: 100% !important;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header-box{
+    background-color: rgb(255, 255, 255);
+    /* width: 35vw; */
+    /* height: 20vh; */
+    margin-top: -120px;
+    box-shadow: 0px 4px 16px 10px rgba(0, 0, 0, 0.25);
+    & h2{
+        margin-top: 5%;
+        text-align: center;
+        color: #000;
+        text-align: center;
+        font-family: Martel;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 112%; /* 34.72px */
+        text-transform: capitalize;
+    }
+
+}
+
+.reservation-box{
+    width: 50% !important;
+    background: #CF1616;
+    /* width: 20vw !important; */
+    /* height: 5vh; */
+    & h3{
+        padding: 10px;
+        color: #FFF;
+        text-align: center;
+        font-family: Martel;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 112%; /* 34.72px */
+        text-transform: capitalize;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .transition-rect{
+        width: 100% !important;
+    }
+    .reservation-box h3{
+        font-size: 15px !important;
+    }
+ }
+@media only screen and (max-width: 992px) {
+    /* .header-box h3{
+        font-size: ;
+    } */
+    .transition-rect{
+        width: 100% !important;
+    }
+    .reservation-box{ 
+        width: 60% !important;
+        
+        & h3{
+        font-size: 20px !important;
+        }
+    }
+ }
+
+/* MAIN CONTENTS */
+.section-title{
+    color: #000;
+    font-family: Martel;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 112%; /* 95.2px */
+    text-transform: capitalize;
+}
+
+/* INTRO SECTION */
+.intro-sec{
+    margin-top: 5%;
+}
+.intro-img{
+    width: 550px;
+    height: 760px;
+    flex-shrink: 0;
+    background: url(images/header-etc/A-9.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: 2%;
+}
+
+.intro-txt h1{
+    color: #000;
+    font-family: Martel;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 112%; /* 95.2px */
+    text-transform: capitalize;
+}
+.intro-txt p{
+    color: #000;
+    font-family: Martel Sans;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 170%; /* 49.3px */
+}
+
+.menu-box{
+    background-color: #CF1616;
+    color: #FFF;
+    font-family: Martel;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 170%; /* 71.4px */
+    text-transform: capitalize;
+}
+
+
+/* LATEST BUZZ SECTION */
+.latest-sec{
+    margin-top: 100px;
+}
+
+.card-body{
+    background: #E6E6E6;
+}
+.card-text, .card-title{
+    color: #000;
+    font-family: Martel;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+    text-transform: capitalize;
+}
+
+/* cards inside the carousel styling */
+@media screen and (min-width:992px){
+    .carousel-inner{
+        display: flex !important;
+    }
+    .carousel-item{
+        display: block !important;
+        margin-right: 0 !important;
+        flex: 0 0 calc(100% / 3) !important;
+    }
+}
+.carousel-inner{
+    padding: 1em;
+}
+.news-card{
+    margin: 0 .5em;
+}
+
+/* carousel control buttons */
+.carousel-control-prev, .carousel-control-next{
+    width: 6vh !important;
+    height: 6vh;
+    background-color: #080808 !important;
+    border-radius: 50px 50px;
+    top: 50% !important;
+    transform: translateY(-100%) !important;
+}
+
+/* REVIEW SECTION */
+
+/* review images */
+.rev-img{
+    border-radius:500px; 
+    width: 50%;
+    z-index: 9;
+}
+
+/* review card (quotations/testimonies)
+MOVE UP USING NEGATIVE MARGIN TO OVERLAP WITH IMAGE */
+.rev-card{
+    margin-top: -50px !important;
+    z-index: -1;
+}
+
+
+/* MERCH SECTION */
+.merch-collection{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.merch-card{
+    width: 20rem;
+}
+
+/* FOOTER */
+footer{
+    width: 100% !important;
+    background-color:rgba(39, 37, 37, 0.979);
+    color: white;
+    position: absolute; /*In order for the footer to take up the full width */
+    left: 0;
+    right: 0; 
+    width: 100%;
+    color: #FFF;
+
+}
+.footer-header{
+    font-family: Martel;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900 !important;
+    line-height: 80%; /* 24.8px */
+    text-transform: capitalize;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Martel;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80%;
+    text-transform: capitalize;
+    line-height:140%; /*or whatever height you like*/
+}
+
+/* GLYPHICONS */
+.bi{
+    font-size: 25px;
+    color: white;
+}
+
