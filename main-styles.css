@@ -79,7 +79,7 @@ html,body{
         color: #000;
         text-align: center;
         font-family: Martel;
-        font-size: 2vw;
+        font-size: 2.4vw;
         font-style: normal;
         font-weight: 700;
         line-height: 112%; /* 34.72px */
@@ -98,7 +98,7 @@ html,body{
         color: #FFF;
         text-align: center;
         font-family: Martel;
-        font-size: 1.5vw;
+        font-size: 2vw;
         font-style: normal;
         font-weight: 700;
         line-height: 112%; /* 34.72px */
@@ -116,6 +116,15 @@ html,body{
     line-height: 112%; /* 95.2px */
     text-transform: capitalize;
 }
+/* FOR SM AND XS DEVICES */
+@media only screen and (max-width: 600px) {
+    .section-title{
+     font-size: 30px;
+    }
+    .section-title{
+        font-size: 20px;
+    }
+ }
 
 /* INTRO SECTION */
 .intro-sec{
@@ -147,6 +156,23 @@ html,body{
     font-weight: 300;
     line-height: 170%; /* 49.3px */
 }
+/* FOR SM AND XS DEVICES*/
+@media only screen and (max-width: 600px) {
+    .intro-txt h1{
+     font-size: 30px;
+    }
+    .intro-txt p{
+        font-size: 20px;
+    }
+ }
+ @media only screen and (max-width: 992px) {
+    .intro-txt h1{
+     font-size: 30px;
+   } 
+   .intro-txt p{
+    font-size: 20px;
+}
+ }
 
 .menu-box{
     background-color: #CF1616;
@@ -158,6 +184,18 @@ html,body{
     line-height: 170%; /* 71.4px */
     text-transform: capitalize;
 }
+/* FOR SM AND XS DEVICES*/
+@media only screen and (max-width: 600px) {
+    .menu-box{
+        font-size: 20px;
+    }
+ }
+ @media only screen and (max-width: 992px) {
+    .menu-box{
+        font-size: 20px;
+    }
+ }
+
 
 
 /* LATEST BUZZ SECTION */
@@ -205,6 +243,18 @@ html,body{
     top: 50% !important;
     transform: translateY(-100%) !important;
 }
+/* FOR SM AND XS DEVICES*/
+@media only screen and (max-width: 600px) {
+    .card-text, .card-title{
+        font-size: 10px !important;
+    }
+ }
+ @media only screen and (max-width: 992px) {
+    .card-text, .card-title{
+        font-size: 10px !important;
+    }
+ }
+
 
 /* REVIEW SECTION */
 
@@ -234,6 +284,18 @@ MOVE UP USING NEGATIVE MARGIN TO OVERLAP WITH IMAGE */
 .merch-card{
     width: 20rem;
 }
+/* FOR SM AND XS DEVICES*/
+@media only screen and (max-width: 600px) {
+    .btn{
+        font-size: 10px !important;
+    }
+ }
+ @media only screen and (max-width: 992px) {
+    .btn{
+        font-size: 10px !important;
+    }
+ }
+
 
 /* FOOTER */
 footer{
