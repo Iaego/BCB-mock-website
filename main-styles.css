@@ -329,7 +329,20 @@ footer{
     text-transform: capitalize;
     line-height:140%; /*or whatever height you like*/
 }
-
+/* FOR SM AND XS DEVICES*/
+@media only screen and (max-width: 600px) {
+    .footer-header{
+        font-size: 15px;
+    }
+    .footer-link{
+        font-size: 10px !important;
+    }
+ }
+ @media only screen and (max-width: 992px) {
+    .btn{
+        font-size: 10px !important;
+    }
+ }
 /* GLYPHICONS */
 .bi{
     font-size: 25px;
